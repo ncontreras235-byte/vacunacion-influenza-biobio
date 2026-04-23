@@ -86,6 +86,8 @@ Los datos son enviados mensualmente por el **Ministerio de Salud de Chile**. El 
 
 ## 🧩 Modelo de Datos
 
+![Modelo de Datos](Dashboard/06_modelado.png)
+
 El modelo sigue una arquitectura tipo **estrella**, compuesta por:
 
 **Tablas de hechos:**
@@ -109,13 +111,3 @@ El modelo sigue una arquitectura tipo **estrella**, compuesta por:
 ## 📁 Fuente de Datos
 
 Los datos son proporcionados mensualmente por el **Ministerio de Salud de Chile** a través de la SEREMI Región del Biobío.
-
----
-
-## 👤 Autor
-
-**[Tu Nombre]**
-Analista de Datos | Región del Biobío, Chile
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue?style=flat&logo=linkedin)](https://linkedin.com/in/tu-perfil)
-[![GitHub](https://img.shields.io/badge/GitHub-Ver%20perfil-black?style=flat&logo=github)](https://github.com/tu-usuario)
