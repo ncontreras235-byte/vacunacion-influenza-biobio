@@ -8,6 +8,8 @@
 
 Este proyecto presenta un análisis visual de la cobertura de vacunación contra la influenza en la Región del Biobío. El dashboard fue desarrollado para la **Unidad de Bioestadística del Depto. de Salud Pública y Planificación Sanitaria — SEREMI Región del Biobío**, con última actualización al 29 de septiembre de 2025.
 
+El objetivo del dashboard es apoyar la observación, monitoreo y ejecución de estrategias en el marco del **Programa Nacional de Inmunización (PNI)**, permitiendo a los equipos de salud tomar decisiones oportunas basadas en el avance de la cobertura vacunal por territorio, servicio de salud y grupo de elegibilidad.
+
 Los datos son enviados mensualmente por el **Ministerio de Salud de Chile**. El proceso de actualización es semiautomático: basta con reemplazar el archivo fuente y actualizar el origen en Power Query para que todo el modelo y las visualizaciones se refresquen automáticamente.
 
 ---
@@ -65,25 +67,6 @@ Los datos son enviados mensualmente por el **Ministerio de Salud de Chile**. El 
 
 ---
 
-## 🗂️ Estructura del Repositorio
-
-```
-📁 vacunacion-influenza-biobio/
-│
-├── 📁 images/
-│   ├── 01_portada.png
-│   ├── 02_nivel_regional.png
-│   ├── 03_por_servicio_de_salud.png
-│   ├── 04_por_criterio.png
-│   └── 05_comparacion_anual.png
-│
-└── README.md
-```
-
-> **Nota:** El archivo `.pbix` no está incluido en este repositorio debido a su tamaño. Si deseas acceder al archivo original, puedes contactarme directamente.
-
----
-
 ## 🧩 Modelo de Datos
 
 ![Modelo de Datos](Dashboard/06_modelado.png)
@@ -110,4 +93,5 @@ El modelo sigue una arquitectura tipo **estrella**, compuesta por:
 
 ## 📁 Fuente de Datos
 
-Los datos son proporcionados mensualmente por el **Ministerio de Salud de Chile** a través de la SEREMI Región del Biobío.
+- **Datos de vacunación:** proporcionados mensualmente por el **Ministerio de Salud de Chile** a través de la SEREMI Región del Biobío
+- **Datos de población y criterios de elegibilidad:** extraídos del **Instituto Nacional de Estadísticas (INE)**
