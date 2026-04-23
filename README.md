@@ -15,19 +15,19 @@ Los datos son enviados mensualmente por el **Ministerio de Salud de Chile**. El 
 ## 🖼️ Vista Previa del Dashboard
 
 ### Portada
-![Portada](images/01_portada.png)
+![Portada](Dashboard/01_portada.png)
 
 ### Nivel Regional
-![Nivel Regional](images/02_nivel_regional.png)
+![Nivel Regional](Dashboard/02_nivel_regional.png)
 
 ### Por Servicio de Salud
-![Por Servicio de Salud](images/03_por_servicio_de_salud.png)
+![Por Servicio de Salud](Dashboard/03_por_servicio_de_salud.png)
 
 ### Por Criterio de Elegibilidad
-![Por Criterio de Elegibilidad](images/04_por_criterio.png)
+![Por Criterio de Elegibilidad](Dashboard/04_por_criterio.png)
 
 ### Comparación Anual
-![Comparación Anual](images/05_comparacion_anual.png)
+![Comparación Anual](Dashboard/05_comparacion_anual.png)
 
 ---
 
