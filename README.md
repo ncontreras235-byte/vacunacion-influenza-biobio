@@ -53,6 +53,18 @@ Los datos son enviados mensualmente por el **Ministerio de Salud de Chile**. El 
 - **Rechazos de vacuna** registrados
 - **Variación porcentual** respecto al año anterior
 - **Comparación anual** de cobertura y población objetivo (2020–2025)
+  
+---
+
+- ## 🎨 Formato Condicional
+
+Los gráficos de cobertura utilizan colores para indicar el estado respecto a la meta regional (85%):
+
+| Color | Condición | Significado |
+|---|---|---|
+| 🟢 Verde | Cobertura ≥ 85% | Meta alcanzada |
+| 🟡 Amarillo | Cobertura ≥ 80% y < 85% | Próximo a la meta |
+| 🔴 Rojo | Cobertura < 80% | Bajo la meta |
 
 ---
 
